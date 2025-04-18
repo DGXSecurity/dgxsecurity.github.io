@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meet BYTE – Your DGX Digital Guide</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      background-color: #f4f7fa;
+      color: #333;
+    }
+    header {
+      background-color: #002b5c;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header img {
+      height: 100px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin: 1rem 0 0.5rem;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      justify-content: space-between;
+    }
+    .feature {
+      flex: 1 1 45%;
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .feature:hover {
+      transform: translateY(-5px);
+    }
+    .cta {
+      background: #0078d4;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+      border-radius: 10px;
+      margin-top: 2rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #002b5c;
+      color: white;
+    }
+    .cta a {
+      display: inline-block;
+      margin-top: 1rem;
+      background: white;
+      color: #0078d4;
+      padding: 0.75rem 1.5rem;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    form {
+      margin-top: 1rem;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 0.75rem;
+      margin-top: 0.5rem;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      margin-top: 1rem;
+      background-color: white;
+      color: #0078d4;
+      padding: 0.75rem 1.5rem;
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://dgxsecurity.com/wp-content/uploads/2023/07/cropped-DGX-SECURITY-LOGO.png" alt="DGX Security Logo" />
+    <h1>Meet BYTE – Your DGX Digital Guide</h1>
+    <p>Helping clients connect smarter, faster, and with a little extra bark. 🐾</p>
+  </header>
+
+  <section>
+    <h2>BYTE Can Help You With:</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>📶 Wi-Fi Upgrades</h3>
+        <p>From city parks to campuses, BYTE helps install high-speed outdoor Wi-Fi with Cisco & HPE Aruba gear.</p>
+      </div>
+      <div class="feature">
+        <h3>💻 Corporate Device Orders</h3>
+        <p>Laptops, tablets, phones – BYTE fetches the tech your team needs, fast and hassle-free.</p>
+      </div>
+      <div class="feature">
+        <h3>💰 Monetized Guest Wi-Fi</h3>
+        <p>Turn foot traffic into profits with custom branded guest portals and in-WiFi ads.</p>
+      </div>
+      <div class="feature">
+        <h3>📡 Data Plan Management</h3>
+        <p>Managing 10 or 1,000 lines? BYTE helps simplify your Verizon, T-Mobile & carrier setup.</p>
+      </div>
+    </div>
+
+    <div class="cta">
+      <h2>Call Sal Austin – The Wi-Fi Guy – and BYTE 🐾</h2>
+      <p>Let us help you modernize your connectivity, scale your network, and serve your users better than ever.</p>
+      <a href="mailto:info@dgxsecurity.com">Contact DGX Security</a>
+
+      <form name="contact" method="POST" data-netlify="true">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="How can BYTE help you?" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2024 DGX Security | Powered by BYTE 🐶
+  </footer>
+</body>
+</html>
